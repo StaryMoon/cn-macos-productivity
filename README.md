@@ -1,20 +1,22 @@
 # 中文 macOS 效率工具清单
 
+> Mac 上常用的包管理、启动器、窗口管理、终端、截图、播放器和容器工具。
+
 ![preview](assets/preview.png)
 
-Mac 效率工具很容易装成工具动物园。这个仓库不是为了列全，而是按日常频率保留那些装完真的会每天用的东西。
+## Overview
 
-启动器、窗口管理、终端、截图，这四类先稳定下来，效率提升会比装一堆小菜单栏工具更明显。
+整理 Mac 上最常用的启动器、窗口管理、包管理、终端、截图、播放器和虚拟化工具。
 
-## 先看这几个
+本仓库只保留与主题直接相关、入口稳定、说明清晰的资源。优先收录官方文档、主流开源仓库、长期可访问的产品页面和常用工具链。
+
+## Key Resources
 
 Homebrew / Raycast / Rectangle / AltTab
 
-Homebrew、Raycast、Rectangle、iTerm2 先装起来，再按需求补 OrbStack 和截图工具。
+## Resources
 
-## 入口
-
-| 名称 | 我为什么留它 |
+| Resource | Use case |
 | --- | --- |
 | [Homebrew](https://brew.sh/) | macOS 包管理器。 |
 | [Raycast](https://www.raycast.com/) | 启动器、快捷命令和 AI 工作流。 |
@@ -25,25 +27,29 @@ Homebrew、Raycast、Rectangle、iTerm2 先装起来，再按需求补 OrbStack 
 | [Shottr](https://shottr.cc/) | 截图和标注工具。 |
 | [IINA](https://iina.io/) | 现代 macOS 视频播放器。 |
 
-## 我的使用顺序
+## Recommended Path
 
-- 先装 Homebrew，再装窗口管理和终端工具。
-- 启动器只选一个主力，不要 Raycast/Alfred 混乱使用。
-- 开发者优先配置终端和容器环境。
+1. 先安装 Homebrew，再配置窗口管理和终端工具。
+2. 启动器建议固定一个主力工具，避免重复配置。
+3. 开发者优先配置终端和容器环境。
 
-## 别踩坑
+## Notes
 
-- 不要安装来源不明的破解工具。
-- 权限类工具要注意辅助功能和屏幕录制权限。
+- 避免安装来源不明的破解工具。
+- 权限类工具需关注辅助功能、屏幕录制和自动化权限。
 
-## 截图来源
+## Screenshot
 
-这张图来自公开页面：[https://www.raycast.com/](https://www.raycast.com/)。如果页面改版，截图可能会和当前官网略有出入。
+Source: [https://www.raycast.com/](https://www.raycast.com/)
 
-## 维护方式
+## Data
 
-链接数据放在 [`data/links.json`](data/links.json)。我倾向于少而准：入口失效就换，说明过时就改，不把这里做成什么都往里塞的大杂烩。
+Structured resource data is available in [`data/links.json`](data/links.json).
+
+## Contributing
+
+PRs are welcome for official links, documentation updates, screenshot refreshes, and concise use-case descriptions. Please avoid mirrors, cracked software, referral links, and unverified downloads.
 
 ## License
 
-MIT. 第三方商标、页面截图和网站内容归原权利方所有；本仓库只做中文导航和使用笔记。
+MIT. Third-party trademarks, screenshots, and website content belong to their respective owners.
