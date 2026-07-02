@@ -46,6 +46,31 @@
       "IINA",
       "https://iina.io/",
       "现代 macOS 视频播放器。"
+    ],
+    [
+      "Maccy",
+      "https://maccy.app/",
+      "轻量开源剪贴板管理。"
+    ],
+    [
+      "Stats",
+      "https://github.com/exelban/stats",
+      "菜单栏系统监控。"
+    ],
+    [
+      "AppCleaner",
+      "https://freemacsoft.net/appcleaner/",
+      "卸载残留清理。"
+    ],
+    [
+      "Karabiner-Elements",
+      "https://karabiner-elements.pqrs.org/",
+      "键盘映射和复杂快捷键。"
+    ],
+    [
+      "MonitorControl",
+      "https://github.com/MonitorControl/MonitorControl",
+      "外接显示器亮度和音量控制。"
     ]
   ],
   "quick_start": [
